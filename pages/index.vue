@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div>
+      <counter />
       <logo />
       <h1 class="title">
         vue_jest_test
@@ -26,10 +27,12 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Counter from '~/components/Counter.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Counter
   }
 }
 </script>
