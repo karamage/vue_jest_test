@@ -36,8 +36,8 @@ describe('CounterVuex.vue', () => {
   })
 
   // 要素の存在を確認することも簡単です
-  it('has a button', () => {
-    expect(wrapper.contains('button')).toBe(true)
+  it('has a count label', () => {
+    expect(wrapper.contains('.count')).toBe(true)
   })
 
   // ボタンを押してinclementが呼び出されているかテスト
