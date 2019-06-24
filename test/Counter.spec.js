@@ -11,7 +11,7 @@ describe('Counter', () => {
 
   // 要素の存在を確認することも簡単です
   it('has a button', () => {
-    expect(wrapper.contains('button')).toBe(true)
+    expect(wrapper.contains('.count')).toBe(true)
   })
 
   // ボタンを押してカウントアップするテスト
